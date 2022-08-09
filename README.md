@@ -41,7 +41,9 @@ SDK позволяет интегрировать плеер IVI в сторон
  ### Ручная установка
  
  Необходимо добавить в проект фреймворк `IVIExternPlayerSDK.xcframework`, а также фреймворки, которые используются как его зависимости:
- * `IVIFoundation.xcframework`
+ * `Utils.xcframework
+ * `Interfaces.xcframework
+ * `AccessibilityScreens.xcframework
  * `ProofOfWorkSwift.xcframework`
  * `IVIToss.xcframework`
  * `IVIFairPlay.xcframework`
