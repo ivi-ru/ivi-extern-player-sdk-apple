@@ -1,5 +1,10 @@
 # Change Log
 
+## Версия 2.0.0
+
+Свойство `videoGravity` в протоколе `PlayerViewProtocol` теперь доступно только для чтения. Чтобы изменить его, используйте метод `func updateVideoGravity(_ videoGravity: AVLayerVideoGravity?, animated: Bool)`.
+Аналогично изменён интерфейс `PopcornPlayer`.
+
 ## Версия 1.0.24
 
 - Повышение стабильности
