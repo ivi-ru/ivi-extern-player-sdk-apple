@@ -1,5 +1,9 @@
 # Change Log
 
+## Версия 2.0.1
+
+- Повышение стабильности
+
 ## Версия 2.0.0
 
 Свойство `videoGravity` в протоколе `PlayerViewProtocol` теперь доступно только для чтения. Чтобы изменить его, используйте метод `func updateVideoGravity(_ videoGravity: AVLayerVideoGravity?, animated: Bool)`.
