@@ -51,6 +51,7 @@ SDK позволяет интегрировать плеер IVI в сторон
  * `Sentinel.xcframework`
  * `IVIToss.xcframework`
  * `IVIFairPlay.xcframework`
+ * `Subs.xcframework`
  * `PopcornAV.xcframework`
  * `Popcorn.xcframework`
  * `Comet.xcframework`
