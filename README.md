@@ -3,7 +3,7 @@
 SDK позволяет интегрировать плеер IVI в сторонние приложения.
 
 ## Требования
- * iOS 13.0 и выше
+ * iOS 14.0 и выше
  * В `Info.plist` приложения должен быть выставлен флаг:
  
  ```
@@ -159,3 +159,41 @@ IVILogger.shared.send {
     // Лог отправлен
 }
 ```
+
+## Picture in Picture
+
+SDK предоставляет сервис `pictureInPictureService` для работы плеера в режиме PiP. 
+
+Интерфейс сервиса имеет следующий вид:
+```swift
+public protocol PictureInPictureService: AnyObject {
+
+    /// Делегат сервиса.
+    var pictureInPictureDelegate: PictureInPictureServiceDelegate? { get set }
+
+    /// Логическое значение, указывающее на поддержку функции `Picture-in-Picture` на устройстве.
+    var isPictureInPictureSupported: Bool { get }
+
+    /// Логическое значение, указывающее на доступность функции `Picture-in-Picture`.
+    var isPictureInPictureEnabled: Bool { get set }
+
+    /// Логическое значение, указывающее на активность функции `Picture-in-Picture` в данный момент.
+    var isPictureInPictureActive: Bool { get }
+
+    /// Начать воспроизведение в режиме `Picture-in-Picture`.
+    func startPictureInPicture()
+
+    /// Остановить воспроизведение в режиме `Picture-in-Picture`.
+    func stopPictureInPicture()
+
+}
+```
+
+#### Важно!
+
+Чтобы сделать PiP доступным нужно:
+
+1. Активировать режим PiP в `Background Modes` в разделе `Signing & Capabilities` в таргете приложения. Более подробно описано тут: https://developer.apple.com/documentation/xcode/configuring-background-execution-modes/
+2. Выставить значение `true` для `isPictureInPictureEnabled` в моменте, когда плеер будет иметь состояние `playing`.
+
+
