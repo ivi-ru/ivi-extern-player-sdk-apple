@@ -32,69 +32,69 @@ let package = Package(
     ],
     targets: [
                     .binaryTarget(name: "AccessibilityScreens",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/AccessibilityScreens.xcframework.zip",
-                        checksum: "37abd178faa3f6f87a028873f85f32db07ba24a90548ff19e90d2ec217dd958c"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/AccessibilityScreens.xcframework.zip",
+                        checksum: "f11ea68e87b712c0b452e447ed9818ddf5f6cbf1b8ef47c7f8f2cf6c7b047dd9"),
             
                     .binaryTarget(name: "PopcornAV",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/PopcornAV.xcframework.zip",
-                        checksum: "42312b1720de4ec3d18ec7edf79735ee32b156a09efc954b199fd829097eb0e0"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/PopcornAV.xcframework.zip",
+                        checksum: "54a1437ebf82a235d2434b5154c36ef5a8afb303eb148d0ba04ade67e22a7581"),
             
                     .binaryTarget(name: "ProofOfWorkSwift",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/ProofOfWorkSwift.xcframework.zip",
-                        checksum: "f208a705775982ba327dccae98b3c7b2572ef12f3a5e1585ba2917157eb7c9ce"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/ProofOfWorkSwift.xcframework.zip",
+                        checksum: "beaba448beb110dcc6b3ec49b4fd09cb940ea1555b5f9b11ed96177adf1596f0"),
             
                     .binaryTarget(name: "Travel",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Travel.xcframework.zip",
-                        checksum: "8fb54c1af40b9393c0013e05cbe314f01db0a3211949262133c39c53a9841c43"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Travel.xcframework.zip",
+                        checksum: "1fcadb2f7c08f19bc4b59a34653f9a2bf37b50b833dad7ad5a471a152210dd39"),
             
                     .binaryTarget(name: "Popcorn",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Popcorn.xcframework.zip",
-                        checksum: "2d318a82345f68518181c936bcdcead769148f3987d87804134ebaa156f8c2d0"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Popcorn.xcframework.zip",
+                        checksum: "73a6c87d23a71328620761185f45febc6e0845554b5e267ab926fb721f53379b"),
             
                     .binaryTarget(name: "IVIExternPlayerSDK",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/IVIExternPlayerSDK.xcframework.zip",
-                        checksum: "d3697db9b67327df93ca9fcc81c65a16aa9118a101c092b6fd9dfc74e7a313ca",
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/IVIExternPlayerSDK.xcframework.zip",
+                        checksum: "872b7f2c5d4d25c890985889dd4b78cb503c266170719e8a0309d7186412b9c3",
                         resources: [.copy("PrivacyInfo.xcprivacy")]),
             
                     .binaryTarget(name: "Comet",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Comet.xcframework.zip",
-                        checksum: "4fb90a25f34904db16e49519fa0f95f1973215e406cabc0eb02c729a5dfec5d5"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Comet.xcframework.zip",
+                        checksum: "3c048354e008b9389f1f11024f813e3f69ea66710594557171d3a8fa9c4e0c39"),
             
                     .binaryTarget(name: "IVIFairPlay",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/IVIFairPlay.xcframework.zip",
-                        checksum: "c9ad35a2249391ab89e10d4b390278151ce3e1f4c7944587e3db2b27f68eaf8f"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/IVIFairPlay.xcframework.zip",
+                        checksum: "c70a3e6ddd23614bd813883cb9f38b5127ab66d9673ccf18eea5409735adc83b"),
             
                     .binaryTarget(name: "Subs",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Subs.xcframework.zip",
-                        checksum: "6ef5fd7af0bd7761be87318f39bf2dc94e6826b52eb1f326806ee70a2b6d72dd"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Subs.xcframework.zip",
+                        checksum: "68444fae52dfe1c8a620699b669de427d5b83394d6876a6d9253c66b05b3e5eb"),
             
                     .binaryTarget(name: "Utils",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Utils.xcframework.zip",
-                        checksum: "38aa01ee78503288a51dc2294c121f1910d0fe45c13f28a63b9d04b8b46a0e53"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Utils.xcframework.zip",
+                        checksum: "3a24ea774bbdfd604e37316b71bf6a8667eefab4bae9220ca15a30183e9f84b2"),
             
                     .binaryTarget(name: "Interfaces",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Interfaces.xcframework.zip",
-                        checksum: "d980c450b659fbcf1c4814640e8c531b27682dffd2d6e818bf683fff7cf2d58d"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Interfaces.xcframework.zip",
+                        checksum: "82abaf300173321c52a627f7116740095435e735cb5b35210694194799116ecb"),
             
                     .binaryTarget(name: "Asset",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Asset.xcframework.zip",
-                        checksum: "ceb1360930fa52abc28798705fe2e2848303b5043eba49c235f178a8f675d845"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Asset.xcframework.zip",
+                        checksum: "58e143b85076c831e6e90848b936c816d314aa25999bf6150b457f1257078f31"),
             
                     .binaryTarget(name: "SwiftProtobuf",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/SwiftProtobuf.xcframework.zip",
-                        checksum: "5c3d91d3c4b05941a78beba6052e6342152feb9945651d40769c33bd7a12a8f2"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/SwiftProtobuf.xcframework.zip",
+                        checksum: "768304e4ade3ae9e52784d3f98c94bf147cedbb534e7dd318de825f6e700eabd"),
             
                     .binaryTarget(name: "IVIToss",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/IVIToss.xcframework.zip",
-                        checksum: "4eef2172bbc1526979abe782806ac8c620c7b2cbbe4e3895b82a2eeb9768eac9"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/IVIToss.xcframework.zip",
+                        checksum: "48c26c5afc281d0becfa1dafeee2044e47337aca14de54f48a58e3801b89ae52"),
             
                     .binaryTarget(name: "Sentinel",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Sentinel.xcframework.zip",
-                        checksum: "6c7aa5c1479d8a28208c111ba86c0a5c89862b6c7a569c85aa458f0e676b41e7"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Sentinel.xcframework.zip",
+                        checksum: "f279ddc53a7e5fb58a394936e8c1cb54fe06ff091980a2544ff5a97d0a6a7a6c"),
             
                     .binaryTarget(name: "Warehouse",
-                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.8/Warehouse.xcframework.zip",
-                        checksum: "d752a73c73fc22ffe45ff8f05cec7044fa56905a2ac4a6a5143862a62d04e6f6"),
+                        url: "https://ivi-ios.hb.bizmrg.com/sdk/2.1.9/Warehouse.xcframework.zip",
+                        checksum: "6424c5abc592bc0e1cea69f4170dcf4b7f66854d04c061577715ce706c530060"),
             
     ]
 )
