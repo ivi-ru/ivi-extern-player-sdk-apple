@@ -46,7 +46,6 @@ SDK позволяет интегрировать плеер IVI в сторон
  * `SwiftProtobuf.xcframework`
  * `Utils.xcframework`
  * `Interfaces.xcframework`
- * `AccessibilityScreens.xcframework`
  * `ProofOfWorkSwift.xcframework`
  * `Sentinel.xcframework`
  * `IVIToss.xcframework`
