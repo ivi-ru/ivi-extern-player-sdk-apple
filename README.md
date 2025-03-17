@@ -54,6 +54,7 @@ SDK позволяет интегрировать плеер IVI в сторон
  * `PopcornAV.xcframework`
  * `Popcorn.xcframework`
  * `Comet.xcframework`
+ * `CipherKitSDK.xcframework`
 
 Для каждого из них должна быть выставлена настройка _Emded & Sign_ в разделе _Frameworks, Libraries, and Embedded Content_ вкладки _General_ соответствующего таргета проекта:
 
